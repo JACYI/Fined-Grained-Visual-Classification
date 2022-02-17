@@ -1,0 +1,14 @@
+# data config
+train_dir: "/home/yiyonghao/IGARSS/dataset/big_aircraft/train"
+test_dir: "/home/yiyonghao/IGARSS/dataset/big_aircraft/test"
+num_class: 16
+
+# model config
+batch_size: 16
+learning_rate: 0.0008
+momentum: 0.9
+weight_decay: 5e-4
+num_epoch: 150
+resize_size: 448
+crop_size: 448
+
